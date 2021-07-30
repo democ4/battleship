@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(0, 119, 119);
+    text-align: center;
+}
+.title{
+    font-size: xx-large;
+}
+.maincontain{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.maincontain > div {
+
+    width: 500px;
+    height: 500px ;
+    border: black 1px solid;
+}
+.playercontain{
+    display: grid;
+}
+.playercontain>div {
+    border: black 1px solid;
+
+}
+
+.cpcontain{
+    display: grid;
+}
+.cpcontain>div {
+    border: black 1px solid;
+
+}
+.ship{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.ship>.shipbody{
+    border: black 1px solid;
+
+    width: 50px;
+    height: 50px;
+}
+.ship1 > .shipbody{
+    background-color: red;
+}
+.ship2 > .shipbody{
+    background-color: blue;
+}
+.ship3 > .shipbody{
+    background-color: green;
+}
+.ship4 > .shipbody{
+    background-color: aqua;
+}
+.ship5 > .shipbody{
+    background-color: gray;
+}
+.hide{
+    display: none !important;
+}
+.setShipdone{
+    margin-top: 5px;
+}
+.float{
+    position: fixed;
+    border: aqua 1px solid;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    background-color: rgba(35, 83, 85, 0.486);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 500px;
+}
+
+.youwhat{
+    font-size: 150px;
+}
